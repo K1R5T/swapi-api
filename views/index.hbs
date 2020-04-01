@@ -1,0 +1,22 @@
+<h1>Star Wars Data</h1>
+
+<ul>
+    {{#each data}}
+
+    {{!-- each item inside of data --}}
+        <li>{{@key}} : {{this}} </li>
+
+    {{/each}}
+</ul>
+
+
+{{!-- {{name}} --}}
+
+<form action="/" method="POST">
+
+    <label for="people">Name:</label>
+    <input class="txtbox" type="text" name="person">
+    <input class="submit-btn" type="submit" value="submit">
+</form>
+
+

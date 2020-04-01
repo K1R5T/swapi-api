@@ -1,0 +1,19 @@
+body{
+    background-image: url(./img/starWars.jpeg);
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+.submit-btn{
+    font-size: large;
+}
+
+.txtbox{
+    font-size: large;
+}
